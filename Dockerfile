@@ -1,4 +1,4 @@
-FROM archlinux:latest as build
+FROM archlinux:latest AS build
 
 RUN pacman --noconfirm -Syu base-devel && \
   useradd -m archie && \
